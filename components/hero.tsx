@@ -26,12 +26,12 @@ export function Hero() {
                 <p className="text-xl md:text-2xl text-blue-200 font-semibold">
                   Information Technology Computing Specialist
                 </p>
-                <p className="text-lg text-purple-200 font-medium">Operations Manager | Web & Booking Systems Expert</p>
+                <p className="text-lg text-purple-200 font-medium">Operations Manager | Full Stuck Application Developer & Booking Systems Expert</p>
               </div>
 
               <p className="text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-                Aspiring technologist passionate about mobile app development, networking, and emerging technologies.
-                Currently managing operations and digital systems at Kivu Expeditions.
+                Aspiring technologist passionate about mobile & Web app development, networking, and emerging technologies.
+                Currently managing operations and digital systems.
               </p>
             </div>
 

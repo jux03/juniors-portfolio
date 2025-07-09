@@ -6,7 +6,7 @@ export function Skills() {
     {
       title: "Programming Languages",
       icon: <Code className="w-6 h-6" />,
-      skills: ["JAVA", "PYTHON", "C++"],
+      skills: ["HTML", "CSS","JS", "REACT", "PYTHON","GIT & Github", "SQL", "PHP"],
       color: "from-blue-500 to-cyan-500",
       bgColor: "bg-blue-500/20",
     },
@@ -20,14 +20,14 @@ export function Skills() {
     {
       title: "Mobile & Web Development",
       icon: <Smartphone className="w-6 h-6" />,
-      skills: ["Mobile Applications", "Web Development", "UI/UX Optimization", "Booking Systems"],
+      skills: ["Mobile Applications", "Web App Development", "UI/UX Optimization", "Booking Systems"],
       color: "from-purple-500 to-pink-500",
       bgColor: "bg-purple-500/20",
     },
     {
       title: "Emerging Technologies",
       icon: <Cpu className="w-6 h-6" />,
-      skills: ["IoT", "Blockchain", "Edge Computing", "Artificial Intelligence"],
+      skills: ["IoT", "Blockchain", "Edge Computing", "Artificial Intelligence, school management systems"],
       color: "from-orange-500 to-red-500",
       bgColor: "bg-orange-500/20",
     },

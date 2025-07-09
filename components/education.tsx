@@ -8,7 +8,7 @@ export function Education() {
       option: "Information Computing Technology",
       institution: "Integrated Polytechnic Regional College (IPRC) TUMBA",
       location: "Rwanda",
-      year: "2023",
+      year: "2025",
       isHighest: true,
     },
     {

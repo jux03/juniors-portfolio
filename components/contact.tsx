@@ -32,14 +32,14 @@ export function Contact() {
       icon: <Github className="w-5 h-5" />,
       label: "GitHub",
       value: "@junygisa",
-      href: "https://github.com/junygisa",
+      href: "https://github.com/jux03",
       color: "from-gray-600 to-gray-800",
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
       value: "Junior Karim",
-      href: "https://linkedin.com/in/junior-karim",
+      href: "https://www.linkedin.com/in/junior-gisa-2a0a39306/",
       color: "from-blue-600 to-blue-800",
     },
   ]

@@ -5,6 +5,20 @@ import { Building, Calendar, Briefcase, Star, TrendingUp } from "lucide-react"
 export function Experience() {
   const experiences = [
     {
+      title: "Full stack Developer & Operations Manager",
+      company: "HB lab",
+      year: "2023 - Present",
+      type: "Part-time Position",
+      status: "Current",
+      responsibilities: [
+        "Daily operations and team coordination",
+        "App development & DAtabase management",
+        "Technical support",
+        "Customer service",
+      ],
+      isCurrentRole: true,
+    },
+    {
       title: "Operations Manager",
       company: "KIVU EXPEDITION Ltd",
       year: "2021 - Present",
@@ -22,12 +36,25 @@ export function Experience() {
     {
       title: "Intern",
       company: "SOTRACOM RWANDA (MTN PARTNER)",
-      year: "2022",
+      year: "2022 - 2023",
       type: "Internship",
       status: "Completed",
       responsibilities: [
         "Supporting team in fiber installation and router configuration",
         "Data management & cloud storage system implementation",
+        "Network troubleshooting and maintenance",
+      ],
+      isCurrentRole: false,
+    },
+    {
+      title: "Intern",
+      company: "Kivu Eco Tours",
+      year: "2021 - 2022",
+      type: "Internship",
+      status: "Completed",
+      responsibilities: [
+        "Supporting team",
+        "Web development and booking system management",
         "Network troubleshooting and maintenance",
       ],
       isCurrentRole: false,
@@ -44,7 +71,9 @@ export function Experience() {
               Professional Journey
             </h2>
           </div>
-          <p className="text-slate-300 text-lg">Building expertise through hands-on experience and leadership</p>
+          <p className="text-slate-300 text-lg">
+            Building expertise through hands-on experience and leadership
+          </p>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-4"></div>
         </div>
 
@@ -57,7 +86,6 @@ export function Experience() {
               }`}
             >
               <CardContent className="p-8 relative overflow-hidden">
-                {/* Background gradient for current role */}
                 {exp.isCurrentRole && (
                   <div className="absolute inset-0 bg-gradient-to-r from-green-500/5 to-blue-500/5"></div>
                 )}
@@ -70,7 +98,9 @@ export function Experience() {
                         {exp.isCurrentRole && (
                           <div className="flex items-center gap-1">
                             <TrendingUp className="w-4 h-4 text-green-400" />
-                            <Badge className="bg-green-500/20 text-green-300 border-green-400/30">Current Role</Badge>
+                            <Badge className="bg-green-500/20 text-green-300 border-green-400/30">
+                              Current Role
+                            </Badge>
                           </div>
                         )}
                       </div>
@@ -118,7 +148,6 @@ export function Experience() {
                   </div>
                 </div>
 
-                {/* Decorative elements */}
                 <div className="absolute top-4 right-4 w-20 h-20 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-full blur-xl"></div>
               </CardContent>
             </Card>
